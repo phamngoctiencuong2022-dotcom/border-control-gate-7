@@ -5,3 +5,5 @@ common = set(s1) & set(s2)
 if common:
     for c in sorted(common):
         print(c)
+else:
+    print()
